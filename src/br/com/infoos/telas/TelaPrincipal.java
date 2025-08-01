@@ -166,7 +166,9 @@ public class TelaPrincipal extends javax.swing.JFrame {
     }//GEN-LAST:event_MenCadOsActionPerformed
 
     private void jMenuItem5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5ActionPerformed
-        
+        //Chamando a tela Sobre. 31/07/2025, TLadislau.
+        TelaSobre Sobre = new TelaSobre();
+        Sobre.setVisible(true);
     }//GEN-LAST:event_jMenuItem5ActionPerformed
 
     private void formWindowActivated(java.awt.event.WindowEvent evt) {//GEN-FIRST:event_formWindowActivated
